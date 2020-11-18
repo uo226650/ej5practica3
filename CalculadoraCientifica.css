@@ -123,8 +123,8 @@ pero que no se muestra visualmente ya que su significado se deriva por contexto 
         text-align: center;
     }
     /*(0,1,0)*/
-    .teclas{
+    /*.teclas{
         width: 100%;
-    }
+    }*/
 
 }
