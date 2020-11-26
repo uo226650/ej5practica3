@@ -272,7 +272,10 @@ class CalculadoraCientifica extends Calculadora {
     }
 
     factorial() {
-        this.pantalla = Number(this.factorialCalculo(this.getNumeroPantalla())).toString();
+        if(this.getNumeroPantalla()<0)
+            this.pantalla = "Introduzca un número positivo";
+        else
+            this.pantalla = Number(this.factorialCalculo(this.getNumeroPantalla())).toString();
         this.actualizarPantalla();
     }
 
